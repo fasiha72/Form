@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./top-view-work-desk-office-workspace-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    width: 380px;
+    padding: 30px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(6px);
+    text-align: left;
+}
+
+h1 {
+    color: #393e41;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #393e41;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    border: 2px solid #99d98c;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 18px;
+    color: gray;
+}
+
+.but {
+    width: 100%;
+    height: 45px;
+    background-color: #99d98c;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.but:hover {
+    background-color: #76c893;
+}
